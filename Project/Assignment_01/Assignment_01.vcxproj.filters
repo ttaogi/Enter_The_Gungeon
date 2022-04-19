@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API_Framework">
+      <UniqueIdentifier>{9f1c085d-2305-4479-a803-aad688b08b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\DesignPattern">
+      <UniqueIdentifier>{82982cb8-5bf7-4845-968c-39ad47cb3f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\DesignPattern\SingletonBase">
+      <UniqueIdentifier>{5045432d-8632-44ca-bf69-f563f2c05d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\GameNode">
+      <UniqueIdentifier>{78a8bff5-4714-475c-83db-10e828edc682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\GameNode\MainGame">
+      <UniqueIdentifier>{449d52be-e87c-4210-a2dc-622ffa601a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Image">
+      <UniqueIdentifier>{ebbfc2ef-1c16-4d84-b665-c0b9ec228f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager">
+      <UniqueIdentifier>{f9db8999-76de-4c1c-a9cf-e00359c33416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Image\Animation">
+      <UniqueIdentifier>{485b5b2e-2f5f-4700-bd7e-7fae3ecc6746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Image\Animator">
+      <UniqueIdentifier>{6c5df2f3-cbfb-4f0b-a5ab-c31a7864ad4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Image\Stripe">
+      <UniqueIdentifier>{ae3553c4-571d-437c-95b1-e206e2348ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\SceneManager">
+      <UniqueIdentifier>{edbf9479-13e1-461d-a5cc-54ebe37614d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\SceneManager\EndSceneManager">
+      <UniqueIdentifier>{104d9825-c034-4201-925e-55c9370c1dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\SceneManager\TitleSceneManager">
+      <UniqueIdentifier>{12049113-0107-4937-905e-c31134de49c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\KeyManager">
+      <UniqueIdentifier>{1f46658a-1e87-4d7b-b438-619bd0c1c7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\ImageManager">
+      <UniqueIdentifier>{9700f17d-05e0-4427-9a24-a063f101c9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\FontManager">
+      <UniqueIdentifier>{aeddacaa-2731-4127-b11b-7f97737eb4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour">
+      <UniqueIdentifier>{68ae8d57-fde4-46dc-9639-806645d4a7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Player">
+      <UniqueIdentifier>{c7b06428-8754-41b3-9ba9-8c6abc3af7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Button">
+      <UniqueIdentifier>{1f72aee3-7d7b-4ac8-a94d-186b86da131a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Stdafx">
+      <UniqueIdentifier>{6430a49e-8904-4a6e-b2e8-b79d9fa33087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Utility">
+      <UniqueIdentifier>{209a7f01-9958-4937-806e-2d7417a1a78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\StateMachine">
+      <UniqueIdentifier>{734db07d-9ecc-443f-ab74-603c0b4b7d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\StateMachine\PlayerStateMachine">
+      <UniqueIdentifier>{50e8d6d9-d299-41b7-bd53-d1e78cd825bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Enemy">
+      <UniqueIdentifier>{4271e9f9-fb20-4e99-ac39-e74d004ceea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\StateMachine\EnemyStateMachine">
+      <UniqueIdentifier>{e8831619-7dfa-411e-a0b6-1db86de7e2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Effect">
+      <UniqueIdentifier>{a99b2f9f-34ad-4d81-b068-b25bd605e937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Map">
+      <UniqueIdentifier>{b6adc17c-7c8e-41dc-92e4-db45219a1ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Map\Room">
+      <UniqueIdentifier>{c34c8c52-bd93-4d8d-b765-11cc6d235362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\SceneManager\BattleStageSceneManager">
+      <UniqueIdentifier>{f26473b8-95a8-4bba-a8fd-5d2bfb96f62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Map\Path">
+      <UniqueIdentifier>{059bce8f-9722-468a-b3e1-0aed2f3dd46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Map\Tile">
+      <UniqueIdentifier>{996ed36e-387c-4343-813e-0ecb3e318c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Effect\MuzzleFlash">
+      <UniqueIdentifier>{f4705932-7c7a-41b8-af0b-546e96b4b324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Bullet">
+      <UniqueIdentifier>{d7f45d8b-1e9c-4ff2-b264-0214935fc380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager\SoundManager">
+      <UniqueIdentifier>{2a848972-ceb6-4868-b064-b1df748352ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Player\PlayerSkill">
+      <UniqueIdentifier>{7854d17f-3c20-4773-a7bd-0c71b3935c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MonoBehaviour\Enemy\Boss">
+      <UniqueIdentifier>{21d16218-0e50-4b83-8d82-ff35ac7feda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\StateMachine\EnemyStateMachine\BossStateMachine">
+      <UniqueIdentifier>{676ec09a-55b4-47b7-a74e-46ea080bf3be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DesignPattern\SingletonBase\SingletonBase.h">
+      <Filter>API_Framework\DesignPattern\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode\GameNode.h">
+      <Filter>API_Framework\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode\MainGame\MainGame.h">
+      <Filter>API_Framework\GameNode\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Image.h">
+      <Filter>API_Framework\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Animation\Animation.h">
+      <Filter>API_Framework\Image\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Animator\Animator.h">
+      <Filter>API_Framework\Image\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Stripe\Stripe.h">
+      <Filter>API_Framework\Image\Stripe</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager\EndSceneManager\EndSceneManager.h">
+      <Filter>API_Framework\Manager\SceneManager\EndSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager\TitleSceneManager\TitleSceneManager.h">
+      <Filter>API_Framework\Manager\SceneManager\TitleSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\FontManager\FontManager.h">
+      <Filter>API_Framework\Manager\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ImageManager\ImageManager.h">
+      <Filter>API_Framework\Manager\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\KeyManager\KeyManager.h">
+      <Filter>API_Framework\Manager\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Button\Button.h">
+      <Filter>API_Framework\MonoBehaviour\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Player\Player.h">
+      <Filter>API_Framework\MonoBehaviour\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\MonoBehaviour.h">
+      <Filter>API_Framework\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx\stdafx.h">
+      <Filter>API_Framework\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CommonMacroFunction.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Constants.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\RandomFunction.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\PlayerStateMachine\PlayerStateMachine.h">
+      <Filter>API_Framework\StateMachine\PlayerStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\StateMachine.h">
+      <Filter>API_Framework\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Enemy\Enemy.h">
+      <Filter>API_Framework\MonoBehaviour\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\EnemyStateMachine\EnemyStateMachine.h">
+      <Filter>API_Framework\StateMachine\EnemyStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Room\Room.h">
+      <Filter>API_Framework\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Map.h">
+      <Filter>API_Framework\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager\BattleStageSceneManager\BattleStageSceneManager.h">
+      <Filter>API_Framework\Manager\SceneManager\BattleStageSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Path\Path.h">
+      <Filter>API_Framework\Map\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Tile\Tile.h">
+      <Filter>API_Framework\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager\SceneManager.h">
+      <Filter>API_Framework\Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Effect\MuzzleFlash\MuzzleFlash.h">
+      <Filter>API_Framework\MonoBehaviour\Effect\MuzzleFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\EnumClasses.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Bullet\Bullet.h">
+      <Filter>API_Framework\MonoBehaviour\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SoundManager\SoundManager.h">
+      <Filter>API_Framework\Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Player\PlayerSkill\PlayerSkill.h">
+      <Filter>API_Framework\MonoBehaviour\Player\PlayerSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour\Enemy\Boss\Boss.h">
+      <Filter>API_Framework\MonoBehaviour\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\EnemyStateMachine\BossStateMachine\BossStateMachine.h">
+      <Filter>API_Framework\StateMachine\EnemyStateMachine\BossStateMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameNode\GameNode.cpp">
+      <Filter>API_Framework\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode\MainGame\MainGame.cpp">
+      <Filter>API_Framework\GameNode\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Image.cpp">
+      <Filter>API_Framework\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Animation\Animation.cpp">
+      <Filter>API_Framework\Image\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Animator\Animator.cpp">
+      <Filter>API_Framework\Image\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Stripe\Stripe.cpp">
+      <Filter>API_Framework\Image\Stripe</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager\EndSceneManager\EndSceneManager.cpp">
+      <Filter>API_Framework\Manager\SceneManager\EndSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager\TitleSceneManager\TitleSceneManager.cpp">
+      <Filter>API_Framework\Manager\SceneManager\TitleSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\FontManager\FontManager.cpp">
+      <Filter>API_Framework\Manager\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\ImageManager\ImageManager.cpp">
+      <Filter>API_Framework\Manager\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\KeyManager\KeyManager.cpp">
+      <Filter>API_Framework\Manager\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour\Button\Button.cpp">
+      <Filter>API_Framework\MonoBehaviour\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour\Player\Player.cpp">
+      <Filter>API_Framework\MonoBehaviour\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx\stdafx.cpp">
+      <Filter>API_Framework\Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Constants.cpp">
+      <Filter>API_Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine\PlayerStateMachine\PlayerStateMachine.cpp">
+      <Filter>API_Framework\StateMachine\PlayerStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MonoBehaviour\Enemy\Enemy.cpp">
+      <Filter>API_Framework\MonoBehaviour\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine\EnemyStateMachine\EnemyStateMachine.cpp">
+      <Filter>API_Framework\StateMachine\EnemyStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Room\Room.cpp">
+      <Filter>API_Framework\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Map.cpp">
+      <Filter>API_Framework\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager\BattleStageSceneManager\BattleStageSceneManager.cpp">
+      <Filter>API_Framework\Manager\SceneManager\BattleStageSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Path\Path.cpp">
+      <Filter>API_Framework\Map\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Tile\Tile.cpp">
+      <Filter>API_Framework\Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour\Effect\MuzzleFlash\MuzzleFlash.cpp">
+      <Filter>API_Framework\MonoBehaviour\Effect\MuzzleFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour\Bullet\Bullet.cpp">
+      <Filter>API_Framework\MonoBehaviour\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SoundManager\SoundManager.cpp">
+      <Filter>API_Framework\Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour\Player\PlayerSkill\PlayerSkill.cpp">
+      <Filter>API_Framework\MonoBehaviour\Player\PlayerSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour\Enemy\Boss\Boss.cpp">
+      <Filter>API_Framework\MonoBehaviour\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine\EnemyStateMachine\BossStateMachine\BossStateMachine.cpp">
+      <Filter>API_Framework\StateMachine\EnemyStateMachine\BossStateMachine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+</Project>

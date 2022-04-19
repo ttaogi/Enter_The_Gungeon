@@ -1,0 +1,11 @@
+root = true
+
+[*]
+charset = utf-8
+
+#FMOD setting.
+#-VC++ Directory
+#	include directory
+#	library directory
+#-Linker - Input
+#	additional dependencies
